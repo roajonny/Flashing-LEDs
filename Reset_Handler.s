@@ -1,11 +1,8 @@
-;Jonathan Roa
-;Freddy Nunez
-;jonathan.roa.730@my.csun.edu
-;freddy.nunez.243@my.csun.edu
 
-						;0xFF00 puts 1 at pins 8-15 (turns off - negative logic)
-						;0x0	puts 0 at pins 8-15 (turns on)
-						;5500	alternates the lights
+
+;0xFF00 puts 1 at pins 8-15 (turns off - negative logic)
+;0x0	puts 0 at pins 8-15 (turns on)
+;5500	alternates the lights
 lights_on	EQU			0x5500			;put value of whatever lights to turn on
 ;IO0PIN		EQU			0xE0028000
 output_on	EQU			0xFF00
